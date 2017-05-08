@@ -1,0 +1,30 @@
+﻿img#capa {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px ;
+}
+
+
+div.datas h3, div.setlist h3 {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+div.datas ul, div.setlist ul {
+    list-style: none;
+    text-align: center;
+    cursor: default;
+    display: initial;
+}
+
+div.datas ul li.passada {
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 750px) {
+    div.datas ul li:not(:last-child) {
+        border-bottom: 1px solid;
+    }
+}
