@@ -3,7 +3,7 @@ $(document).ready(function () {
     var dataAtual = new Date().setHours(0, 0, 0, 0);
     var elemento, data, i;
     
-    $( "div.datas p.total" ).text( "Total de concertos: " + total );
+    $( "div.datas p.total" ).text( "Total de concertos: " );
 
     for (elemento = $("div.datas ul li").first(), i = 0; i < total; i++, elemento = elemento.next()) {
         data = new Date(elemento.text().substring(0, 10));
